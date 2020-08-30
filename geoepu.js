@@ -2,7 +2,7 @@ ymaps.ready(init);
 function init() {
 myMapGeo = new ymaps.Map('YMapsIDgeopoint', {
 center: [55.600852, 36.46187],
-zoom: 16,
+zoom: 17,
 controls: ['zoomControl', 'searchControl', 'typeSelector', 'geolocationControl']
 });
 myMapGeo.events.add('click', function (e) {
@@ -13,7 +13,7 @@ myMapGeo.events.add('click', function (e) {
 
 myMapGeo2 = new ymaps.Map('YMapsIDgeopoint2', {
 center: [56.013722, 92.85521],
-zoom: 16,
+zoom: 17,
 controls: ['zoomControl', 'typeSelector']
 });
 
